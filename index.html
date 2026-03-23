@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image to Video AI | Turn Still Images into Video</title>
+  <meta name="description" content="Image to Video AI turns still images into story-driven videos with natural motion, first-and-last-frame control, and fast creative iteration.">
+  <style>
+    :root {
+      --bg: #f4efe6;
+      --surface: rgba(255,255,255,0.78);
+      --text: #1f1a17;
+      --muted: #655c56;
+      --accent: #ff6b3d;
+      --accent-2: #0f766e;
+      --line: rgba(31,26,23,0.1);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(255,107,61,0.22), transparent 32%),
+        radial-gradient(circle at top right, rgba(15,118,110,0.18), transparent 28%),
+        linear-gradient(180deg, #f8f2e8 0%, var(--bg) 100%);
+    }
+    .wrap {
+      width: min(1040px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 72px;
+    }
+    .hero {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 28px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 18px 48px rgba(31,26,23,0.08);
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255,107,61,0.12);
+      color: var(--accent);
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 18px 0 14px;
+      font-size: clamp(42px, 8vw, 86px);
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+    }
+    p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.7;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      margin-top: 28px;
+    }
+    .card {
+      padding: 20px;
+      border-radius: 22px;
+      background: rgba(255,255,255,0.72);
+      border: 1px solid var(--line);
+    }
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 21px;
+    }
+    .cta {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 26px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 180px;
+      padding: 14px 20px;
+      border-radius: 999px;
+      font-weight: 700;
+      text-decoration: none;
+      color: #fff;
+      background: var(--text);
+    }
+    .btn.alt {
+      background: var(--accent-2);
+    }
+    .visual {
+      margin-top: 22px;
+      overflow: hidden;
+      border-radius: 24px;
+      border: 1px solid var(--line);
+    }
+    .visual img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .footer {
+      margin-top: 22px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <span class="eyebrow">Image to Video AI</span>
+      <h1>Turn still images into natural, story-driven videos.</h1>
+      <p>Image to Video AI helps creators, marketers, designers, and product teams generate motion-rich short videos from existing images with more control over framing, timing, and visual direction.</p>
+      <div class="cta">
+        <a class="btn" href="https://imagetovideoai.pro/" target="_blank" rel="noreferrer">Visit Website</a>
+        <a class="btn alt" href="https://imagetovideoai.pro/pricing" target="_blank" rel="noreferrer">View Pricing</a>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h2>What it does</h2>
+          <p>Generate short videos from still images with natural motion, stronger pacing, and faster creative iteration.</p>
+        </article>
+        <article class="card">
+          <h2>Why it stands out</h2>
+          <p>Use first-and-last-frame control, multi-image references, and multi-model workflows to guide output more precisely.</p>
+        </article>
+        <article class="card">
+          <h2>Best for</h2>
+          <p>Social clips, product promos, ad concepts, campaign visuals, and fast experiments from strong static assets.</p>
+        </article>
+      </div>
+      <div class="visual">
+        <img src="https://static.imagetovideoai.pro/screenshot_image_to_video_ai.jpg" alt="Image to Video AI screenshot">
+      </div>
+      <p class="footer">Logo: https://imagetovideoai.pro/logo.png</p>
+    </section>
+  </main>
+</body>
+</html>
